@@ -9,7 +9,7 @@ class Error:
         # self.my_list.append(val)
         while True:
             try:
-                val = int(input('введите значения и нажимайте Enter - '))
+                val = int(input('Введите значения и нажимайте Enter - '))
                 self.my_list.append(val)
                 print(f'Текущий список - {self.my_list} \n ')
             except:

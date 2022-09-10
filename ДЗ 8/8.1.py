@@ -22,7 +22,7 @@ class Data:
                 if 2019 >= year >= 0:
                     return f'All right'
                 else:
-                    return f'Неверный год'
+                    return f'Неправильный год'
             else:
                 return f'Неправильный месяц'
         else:
