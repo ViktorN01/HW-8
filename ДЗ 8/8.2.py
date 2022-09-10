@@ -8,7 +8,7 @@ class DivisionByNull:
         try:
             return (divider / denominator)
         except:
-            return (f"Деление на ноль недопустимо")
+            return (f"деление на ноль недопустимо")
 
 
 div = DivisionByNull(10, 100)
